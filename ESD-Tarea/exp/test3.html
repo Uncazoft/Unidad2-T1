@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <link rel="shortcut icon" href="../img/pika.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/test1.css">
+</head>
+<body>
+    <header>
+        <h1 class="title-1">Tarea de Estructura de Datos</h1>
+        <nav class="container-nav">
+
+            <a class="link-nav" href="./test1.html">Creacion y Manipulacion de Arreglos </a><br>
+            <a class="link-nav" href="./test2.html">Gestion de Objetos</a><br>
+            <a class="link-nav" href="#dos" class="dos">Referencias y Copias</a><br>
+            <a class="link-nav" href="./test4.html">Clases</a><br>
+            <a class="link-nav" href="./test5.html">Filtrado y Mapeo de Arreglos</a><br>
+            <a class="link-nav" href="./test6.html">Validacion</a><br>
+            <a class="link-nav" href="../web/test3.html">Codigo Ejercicio 3</a><br>
+            <a class="link-nav" href="javascript:history.back()">Regresar</a><br>
+            <a class="link-nav" href="../index.html">Volver</a><br>
+        </nav>
+    </header>
+    <section id="uno" class="uno">
+        <h1>↓</h1>
+        <p> </p>
+    </section>
+    <section id="dos" class="dos">
+        <h1><br><br><br><br><br><br>Referencias y Copias</h1>
+        <p>
+            
+            <strong>Conceptos Clave</strong><br><br>
+            <strong>Objetos en JavaScript:</strong><br>
+            Son colecciones de propiedades, donde cada propiedad tiene una clave (nombre) y un valor. Los objetos pueden contener cualquier tipo de dato, incluidos otros objetos y funciones.<br><br>
+            
+            <strong>Copia Superficial:</strong><br>
+            Al hacer una copia superficial, como con el operador de propagacion, solo se copian las propiedades del primer nivel. Las propiedades que son objetos anidados se copian por referencia. Cambios en estos objetos anidados afectaran a ambos objetos copiados.<br><br>
+            
+            <strong>Mutabilidad:</strong><br>
+            Los objetos en JavaScript son mutables, lo que significa que pueden ser modificados despues de su creacion. Esto permite cambiar sus propiedades en cualquier momento.<br><br>
+            
+            <strong>Operador de Propagacion (...):</strong><br>
+            Este operador se usa para "expandir" un objeto en un nuevo contexto. Es especialmente util para crear copias de objetos y para combinar objetos.<br><br>
+            
+            <strong>Referencias:</strong><br>
+            Cuando asignas un objeto a otra variable sin hacer una copia, ambas variables referiran al mismo objeto en memoria. Modificaciones a traves de una variable afectaran a la otra.<br><br>
+            <strong>Funciones de Cada Elemento</strong><br><br>
+            
+            <strong>let:</strong> Palabra clave para declarar variables en JavaScript. Su alcance es de bloque, lo que significa que solo esta disponible dentro del bloque donde se define.<br><br>
+            
+            <strong>{}</strong>: Sintaxis para definir objetos literales. Dentro de las llaves, se pueden incluir propiedades y metodos.<br><br>
+            
+            <strong>... (Operador de Propagacion):</strong> Se usa para crear copias superficiales de objetos, expandir arrays o combinar objetos.<br><br>
+            
+            <strong>console.log():</strong> Metodo del objeto console que imprime informacion en la consola, util para depuracion.<br>
+            
+
+            <br>y como evitarlo:<br>
+
+            El comportamiento se produce porque a y b son referencias al mismo objeto. Para evitar esto, puedes hacer una copia superficial del objeto usando el operador de propagacion (...) de modo que b apunte a un nuevo objeto y no al mismo que a.
+            
+        </p>
+        
+    
+
+    </section>
+    <footer></footer>
+    <script src="../js/inndex.js"></script>
+</body>
+</html>

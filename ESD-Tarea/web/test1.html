@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <link rel="shortcut icon" href="../img/pika.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/test.css">
+</head>
+<body>
+   
+
+    <header>
+        <h1 class=" Codigo del Ejercicio 1">Tarea de Estructura de Datos</h1>
+        <nav class="container-nav">
+
+            <a class="link-nav" href="#dos" class="dos">Codigo Ejercicio 1 </a> <br>
+            <a class="link-nav" href="./test2.html">Codigo Ejercicio 2</a><br>
+            <a class="link-nav" href="./test3.html">Codigo Ejercicio 3</a><br>
+            <a class="link-nav" href="./test4.html">Codigo Ejercicio 4</a><br>
+            <a class="link-nav" href="./test5.html">Codigo Ejercicio 5</a><br>
+            <a class="link-nav" href="./test6.html">Codigo Ejercicio 6</a><br>
+            <a class="link-nav" href="./test7.html">Thanks</a><br>
+            <a class="link-nav" href="../index.html">Volver</a><br>
+
+        </nav>
+    </header>
+    <section id="uno" class="uno">
+        <h1>↓
+        </h1>
+        <p> </p>
+    </section>
+    <section id="dos" class="dos">
+        <h1>Codigo Ejercicio 1</h1>
+        <p>
+            let bolsaDeLoteria = [];<br><br>
+        
+            for (let i = 0; i < 10; i++) {<br>
+                bolsaDeLoteria.push(Math.floor(Math.random() * 100) + 1);<br>
+            }<br><br>
+        
+            console.log("Bolsa de números de lotería original:", bolsaDeLoteria);<br><br>
+        
+            bolsaDeLoteria.sort((a, b) => a - b);<br><br>
+        
+            console.log("Bolsa de números de lotería ordenada:", bolsaDeLoteria);<br><br>
+        
+            bolsaDeLoteria.splice(0, 2);<br><br>
+        
+            for (let i = 0; i < 5; i++) {<br>
+                bolsaDeLoteria.push(Math.floor(Math.random() * 100) + 1);<br>
+            }<br><br>
+        
+            console.log("Bolsa de números de lotería final:", bolsaDeLoteria);<br><br><br><br>
+        </p>
+        
+    </section>
+    <footer></footer>
+    <script src="../js/index.js"></script>
+
+</body>
+</html>

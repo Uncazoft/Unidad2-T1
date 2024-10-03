@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <link rel="shortcut icon" href="../img/pika.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/test.css">
+</head>
+<body>
+    <header>
+        <h1 class="title-1">Tarea de Estructura de Datos</h1>
+        <nav class="container-nav">
+
+            <a class="link-nav" href="./test1.html">Codigo Ejercicio 1 </a><br>
+            <a class="link-nav" href="./test2.html">Codigo Ejercicio 2</a><br>
+            <a class="link-nav" href="./test3.html">Codigo Ejercicio 3</a><br>
+            <a class="link-nav" href="#dos" class="dos">Codigo Ejercicio 4</a><br>
+            <a class="link-nav" href="./test5.html">Codigo Ejercicio 5</a><br>
+            <a class="link-nav" href="./test6.html">Codigo Ejercicio 6</a><br>
+            <a class="link-nav" href="./test7.html">Thanks</a><br>
+            <a class="link-nav" href="../index.html">Volver</a><br>
+        </nav>
+    </header>
+    <section id="uno" class="uno">
+        <h1>↓
+        </h1>
+        <p> </p>
+    </section>
+    <section id="dos" class="dos">
+        <h1>Codigo Ejercicio 4</h1>
+        <p>
+            class Nodo {<br>
+                constructor(data) {<br>
+                    this.data = data;<br>
+                    this.next = null;<br>
+                    this.back = null;<br>
+                }<br>
+            }<br><br>
+            
+            const nodo1 = new Nodo("Primer nodo");<br>
+            const nodo2 = new Nodo("Segundo nodo");<br>
+            const nodo3 = new Nodo("Tercer nodo");<br><br>
+            
+            nodo1.data = "Primer nodo";<br>
+            nodo2.data = "Segundo nodo";<br>
+            nodo3.data = "Tercer nodo";<br><br>
+            
+            nodo1.next = nodo2;<br>
+            nodo2.next = nodo3;<br>
+            nodo3.next = null;<br><br>
+            
+            nodo1.back = null;<br>
+            nodo2.back = nodo1;<br>
+            nodo3.back = nodo2;<br><br>
+            
+            console.log(nodo1);<br>
+            console.log(nodo2);<br>
+            console.log(nodo3);<br><br><br><br>
+        
+            
+        </p>
+
+    </section>
+    <footer></footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>
